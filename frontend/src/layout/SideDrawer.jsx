@@ -145,14 +145,14 @@ const SideDrawer = () => {
                 <SiGooglesearchconsole /> How it works
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to={"/about"}
                 className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
               >
                 <BsFillInfoSquareFill /> About Us
               </Link>
-            </li>
+            </li> */}
           </ul>
           <IoMdCloseCircleOutline
             onClick={() => setShow(!show)}
@@ -181,14 +181,14 @@ const SideDrawer = () => {
           >
             Contact Us
           </Link>
-          <p className="text-stone-500">&copy; PrimeBid, LLC.</p>
+          <p className="text-stone-500">&copy; KS, LLC.</p>
           <p className="text-stone-500">
-            Degined By{" "}
+           
             <Link
               to={"/"}
               className="font-semibold hover:text-[#d6482b] hover:transition-all hover:duration-150"
             >
-              CodeWithZeeshu
+              
             </Link>
           </p>
         </div>
